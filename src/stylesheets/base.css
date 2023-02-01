@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+:root {
+  --secondary-color: #2b2d42;
+  --primary-color: #edf2f4;
+  --accent-color: #ef233c;
+  --background-color: #dfe7fd;
+  --xxl-size: 4rem;
+  --xl-size: 2.5rem;
+  --l-size: 2rem;
+  --m-size: 1.5rem;
+  --s-size: 1rem;
+  --xs-size: 0.5rem;
+  --xl-font: 3rem;
+  --light: 300;
+  --regular: 400;
+  --semibold: 600;
+  --bold: 700;
+  --black: 900;
+  --font: "Mukta", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font);
+  color: var(--secondary-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
